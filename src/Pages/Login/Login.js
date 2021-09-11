@@ -14,7 +14,7 @@ const Login = () => {
     <input class="email-add" type= "tel" placeholder="Phone Number" required/>
     <input class="pswd" type="password" placeholder="Password" required/>
  <p>
-    <a href='#'> Forgot Password ?</a>
+    <a className="a" href='#'> Forgot Password ?</a>
     </p>  
     <button class="login"> LOGIN </button>
   </div>
