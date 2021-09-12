@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@500&display=swap");
+.container {
+  display: flex;
+  height: 600px;
+  width: 80%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 20px;
+}
+.pageleft {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  animation-name: page-left;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+.formpage {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.formpage input {
+  width: 100%;
+}
+
+.header {
+  max-width: 80%;
+}
+
+.header1 {
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Pacifico", Sans-serif;
+  padding-bottom: 10px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.1s;
+  animation-fill-mode: both;
+}
+.header2 {
+  padding-bottom: 15px;
+  color: grey;
+  font-size: 18px;
+  animation-name: slide;
+  animation-duration: 3.4s;
+  animation-delay: 3.9s;
+  animation-fill-mode: both;
+}
+.emailadd {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 50px;
+  height: 45px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border: 2px solid lightgrey;
+  font-size: 15px;
+  width: 410px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.4s;
+  animation-fill-mode: both;
+}
+.erremailadd {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 50px;
+  height: 45px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border: 1px solid red;
+  font-size: 15px;
+  width: 410px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.4s;
+  animation-fill-mode: both;
+}
+.username {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 45px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border: 2px solid lightgrey;
+  font-size: 15px;
+  width: 410px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.4s;
+  animation-fill-mode: both;
+}
+.errusername {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 45px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border: 1px solid red;
+  font-size: 15px;
+  width: 410px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.4s;
+  animation-fill-mode: both;
+}
+.number {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 45px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border: 2px solid lightgrey;
+  font-size: 15px;
+  width: 410px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.4s;
+  animation-fill-mode: both;
+}
+.errnumber {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 45px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border: 1px solid red;
+  font-size: 15px;
+  width: 410px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.4s;
+  animation-fill-mode: both;
+}
+.dob {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+  color: grey;
+  height: 45px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border: 2px solid lightgrey;
+  font-size: 15px;
+  width: 410px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.4s;
+  animation-fill-mode: both;
+}
+.errdob {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 10px;
+  color: grey;
+  height: 45px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border: 1px solid red;
+  font-size: 15px;
+  width: 410px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.4s;
+  animation-fill-mode: both;
+}
+.gender {
+    display: flex;
+    align-items: center;
+  margin-bottom: 15px;
+  color: grey;
+  height: 15px;
+  margin-left: 20px;
+  font-size: 18px;
+  width: 50px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.4s;
+  animation-fill-mode: both;
+}
+.gen{
+    margin-right: 30px;
+    margin-left: 5px;
+    // font-size: 15px;
+}
+.pswd {
+  margin-bottom: 15px;
+  height: 45px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border: 2px solid lightgrey;
+  font-size: 15px;
+  width: 410px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.6s;
+  animation-fill-mode: both;
+}
+.errpswd {
+  margin-bottom: 15px;
+  height: 45px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border-radius: 3px;
+  padding-left: 15px;
+  border: 1px solid red;
+  font-size: 15px;
+  width: 410px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.6s;
+  animation-fill-mode: both;
+}
+.a {
+  color: rgb(34, 89, 255);
+
+  float: right;
+  font-size: 14px;
+  animation-name: slide;
+  animation-duration: 3s;
+  animation-delay: 3.8s;
+  animation-fill-mode: both;
+}
+a:hover {
+  color: rgb(51, 10, 138);
+}
+.register {
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  background-color: #000f5b;
+  margin-top: -40px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 410px;
+  letter-spacing: 1px;
+  animation-name: slide;
+  animation-delay: 4s;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+.login {
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+    color: #000f5b;
+    height: 45px;
+    border-radius: 3px;
+    border: none;
+    margin-top: -40px;
+    margin-left: 20px;
+    width: 410px;
+    letter-spacing: 1px;
+    animation-name: slide;
+    animation-delay: 4s;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+.pageright {
+  flex: 1;
+  background-image: url("../Login//Naruto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 20px 20px 0px;
+}
+@keyframes page-left {
+  0% {
+    opacity: 0;
+    max-width: 0;
+  }
+  100% {
+    opacity: 1;
+    max-width: 600px;
+  }
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-25px);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+// @media screen and (max-width: 680px) {
+//   .container {
+//     flex-direction: column-reverse;
+//     justify-content: space-between;
+//     align-items: center;
+//   }
+// }
